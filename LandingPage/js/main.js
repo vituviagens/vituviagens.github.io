@@ -43,3 +43,10 @@ $(document).ready(function(){
 
 	
 });
+
+
+var frame = document.getElementById('sbox_iframe');
+frame.onload = function () {
+  var body = frame.contentWindow.document.querySelector('body');
+  body.style.fontFamily = 'Raleway';
+};

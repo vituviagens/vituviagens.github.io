@@ -288,6 +288,13 @@ header {
   -o-background-size: cover;
 }
 
+div.transbox {
+  height: 150px;
+    width: 150px;
+    margin: 20px;
+    background: rgba(255,255,255,.5);
+}
+
 .header-info {
   position: absolute;
   bottom: 0;
@@ -296,6 +303,8 @@ header {
   right: 0;
   margin-left: 0px;
   margin-bottom: 12%;
+  background-color: rgba(0,0,0,.4);
+  background-blend-mode: darken;
 }
 
 .signin {
@@ -364,7 +373,7 @@ header {
 
 
 
-#be-the-first {
+#servicos {
   background: url(../img/vitu-bg.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;

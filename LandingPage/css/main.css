@@ -286,6 +286,8 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-color: rgba(0,0,0,.4);
+  background-blend-mode: darken;
 }
 
 .header-info {
@@ -296,8 +298,6 @@ header {
   right: 0;
   margin-left: 0px;
   margin-bottom: 12%;
-  background-color: rgba(0,0,0,.4);
-  background-blend-mode: darken;
 }
 
 .signin {

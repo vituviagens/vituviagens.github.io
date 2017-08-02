@@ -288,13 +288,6 @@ header {
   -o-background-size: cover;
 }
 
-div.transbox {
-  height: 150px;
-    width: 150px;
-    margin: 20px;
-    background: rgba(255,255,255,.5);
-}
-
 .header-info {
   position: absolute;
   bottom: 0;

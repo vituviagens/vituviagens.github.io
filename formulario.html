@@ -204,7 +204,7 @@
                             <input type="checkbox" class="form-control" name="check-restaurantes[]" id="restaurante-3" value="Mercados Gourmet" style="display: none; margin: 0; padding: 0;">
                             <input type="checkbox" class="form-control" name="check-restaurantes[]" id="restaurante-4" value="Locais e Caseiros" style="display: none; margin: 0; padding: 0;">
                         </div>
-                        <input type="checkbox" name="restaurantes" id="restaurantes" required data-error="Por favor, selecione o(s) tipo(s) de restaurante(s) que prefere em sua viagem." style="display: none; margin: 0; padding: 0;">
+                        <input type="checkbox" id="restaurantes" required data-error="Por favor, selecione o(s) tipo(s) de restaurante(s) que prefere em sua viagem." style="display: none; margin: 0; padding: 0;">
                         <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <div class="help-block with-errors"></div>
                         
@@ -233,14 +233,14 @@
                         <input type="checkbox" class="form-control" name="check-pode-fazer[]" id="pode-fazer-6" value="Guia de Viagem Personalizado SEM Programação Diária" style="display: none; margin: 0; padding: 0;">
                         <input type="checkbox" class="form-control" name="check-pode-fazer[]" id="pode-fazer-7" value="Guia TOP 5 do Destino Interessado (5 restaurantes + 5 passeios de acordo com seu perfil)" style="display: none; margin: 0; padding: 0;">
 
-                        <input type="checkbox" class="form-control" name="podeFazer" id="podeFazer" required data-error="Por favor, preencha com o(s) item(ns) sobre qual(is) deseja informações." style="display: none; margin: 0; padding: 0;">
+                        <input type="checkbox" class="form-control" id="podeFazer" required data-error="Por favor, preencha com o(s) item(ns) sobre qual(is) deseja informações." style="display: none; margin: 0; padding: 0;">
                         <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <div class="help-block with-errors"></div>
                     </div>
 
                     <div class="form-group">
-                        <label for="conte">Conte-me mais alguma coisa pra eu entender o que é uma <strong>viagem ideal para você</strong> e <strong>o que você espera</strong> desta próxima viagem:</label>
-                        <textarea class="form-control" id="conte" rows="5"></textarea>
+                        <label for="conteMais">Conte-me mais alguma coisa pra eu entender o que é uma <strong>viagem ideal para você</strong> e <strong>o que você espera</strong> desta próxima viagem:</label>
+                        <textarea class="form-control" name="conteMais" id="conteMais" rows="5"></textarea>
                     </div>
 
                     <!-- Success message -->
@@ -251,6 +251,7 @@
                     <input type="hidden" name="_next" value="enviado.html" />
                     <input type="hidden" name="_subject" value="Formulário do site!" />
                     <input type="hidden" name="_language" value="pt" />
+                    <input type="text" name="_gotcha" style="display:none" />
                 </form>
                 </div>
             </div>

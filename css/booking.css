@@ -1,0 +1,8 @@
+/*--------------- iFrame Booking.com -------------------*/
+iframe[name=sbox_iframe] {
+    background-color: #feba02;
+  }
+
+div#searchboxInc {
+    width: 450px !important;
+  }

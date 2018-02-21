@@ -806,6 +806,24 @@ form#form-comecar span.glyphicon {
 	color: #003580;
 }
 
+.red-hoteis {
+	border-color: #eb1b00;
+  color: #eb1b00;
+  margin: 0;
+}
+
+.amarelo-decolar {
+	border-color: #FFF157;
+  color: #FFF157;
+  margin: 0;
+}
+
+.laranja-hu {
+	border-color: #FF7900;
+  color: #FF7900;
+  margin: 0;
+}
+
 #div-booking h3 { 
   font-size: 1.5em;
   margin: 6px;
@@ -827,4 +845,8 @@ input#destination {
 
 #iframe-booking iframe {
   min-height: 260px;
+}
+
+#press > div > div.col-sm-12.wow.fadeIn, #press > div > div.col-sm-4.wow.fadeIn {
+  padding: 0;
 }

@@ -1,8 +1,16 @@
 /*--------------- iFrame Booking.com -------------------*/
 iframe[name=sbox_iframe] {
-    background-color: #feba02;
-  }
+  background-color: #feba02;
+}
 
 div#searchboxInc {
-    width: 450px !important;
-  }
+  width: 450px !important;
+}
+
+.search-box-container, .nevo-header-navigation {
+  min-width: 520px !important;
+}
+
+body > div.search-box-container {
+  min-width: 380px !important;
+}

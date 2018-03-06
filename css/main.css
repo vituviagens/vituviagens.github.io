@@ -267,11 +267,6 @@ a:hover, a:focus {
     border-color: transparent;
 }
 
-.logo img {
-	/*margin-top: 6px;*/
-}
-
-
 
 /* ==========================================================================
    Main styles
@@ -832,6 +827,8 @@ form#form-comecar span.glyphicon {
 
 #div-booking img {
   margin: 10px auto;
+  width: 96%;
+  max-width: 397px;
 }
 
 #destinationSearch h3 {

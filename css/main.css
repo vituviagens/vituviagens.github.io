@@ -847,3 +847,7 @@ input#destination {
 #press > div > div.col-sm-12.wow.fadeIn, #press > div > div.col-sm-4.wow.fadeIn {
   padding: 0;
 }
+
+#div-goeuro {
+  padding: 20px 0px !important;
+}

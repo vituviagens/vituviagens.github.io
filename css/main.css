@@ -848,6 +848,6 @@ input#destination {
   padding: 0;
 }
 
-#div-goeuro {
+#div-goeuro, #div-segurospromo, #div-aluguetemporada {
   padding: 20px 0px !important;
 }
